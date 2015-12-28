@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'yekan';
+    src: url('fonts/lmu_yekan-webfont.eot?') format('eot'),
+    url('fonts/lmu_yekan-webfont.woff') format('woff'),
+    url('fonts/lmu_yekan-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.menu-top{
+    font-family: 'yekan';
+}
+
+.fullWidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
