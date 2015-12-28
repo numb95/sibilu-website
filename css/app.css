@@ -16,3 +16,9 @@
     margin-right: auto;
     max-width: initial;
 }
+.teamwork{
+    padding-right: 0px;
+    padding-left: 0px;
+    background-attachment: fixed !important;
+    background: url("../img/teamwork.jpg");
+}
