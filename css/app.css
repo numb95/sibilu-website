@@ -22,3 +22,11 @@
     background-attachment: fixed !important;
     background: url("../img/teamwork.jpg");
 }
+.header-bg{
+    background: url("../img/bg.jpg");
+    background-attachment: fixed !important;
+    background-repeat: round !important;
+}
+@media screen and (min-width: 1200px) {
+    .header-bg{height: 700px !important;}
+}
