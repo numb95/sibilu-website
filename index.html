@@ -31,12 +31,12 @@
         </div>
         <div class="top-bar-right">
             <ul class="menu menu-top">
-                <li class="menu-text">خانه <i class="fa fa-home"></i></li>
-                <li class="menu-text">فعالیت‌ها<i class="fa fa-cogs"></i></li>
-                <li class="menu-text">ما کی هستیم <i class="fa fa-info-circle"></i></li>
-                <li class="menu-text">تیم‌ما <i class="fa fa-users"></i></li>
-                <li class="menu-text">نمونه‌کارها<i class="fa fa-magic"></i></li>
-                <li class="menu-text">دوستان‌ ما<i class="fa fa-heart"></i></li>
+                <li class="menu-text"><a href="#home">خانه<i class="fa fa-home"></i></a></li>
+                <li class="menu-text"><a href="#activities">فعالیت‌ها<i class="fa fa-cogs"></i></a></li>
+                <li class="menu-text"><a href="#who-we-are">ما کی هستیم <i class="fa fa-info-circle"></i></a></li>
+                <li class="menu-text"><a href="#">تیم‌ما <i class="fa fa-users"></i></a></li>
+                <li class="menu-text"><a href="#">نمونه‌کارها<i class="fa fa-magic"></i></a></li>
+                <li class="menu-text"><a href="#">دوستان‌ ما<i class="fa fa-heart"></i></a></li>
 
 
             </ul>
@@ -45,13 +45,13 @@
 
 </div>
 
-<div class="row fullWidth">
+<div class="row fullWidth" id="home" name="home">
     <div class="large-12 columns" style="padding-right: 0px;padding-left: 0px;">
         <div class="header-bg"></div>
 
     </div>
 </div>
-<div class="row large-centered">
+<div class="row large-centered" id="activities" name=""activities>
     <br><br>
 
     <div class="large-4   columns">
@@ -96,7 +96,7 @@
         <br>
         <i class="fa fa-star fa-2x"></i><i class="fa fa-star fa-2x"></i>
 
-        <p class="text-justify yekan">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+        <p class="text-justify yekan teamwork-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
             است. چاپگرها و متون
             بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
             با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
@@ -107,11 +107,11 @@
 
 
     </div>
-    <div class="large-6 columns ">
+    <div class="large-6 columns" id="who-we-are" name="who-we-are">
         <br>
         <i class="fa fa-star fa-2x"></i>
 
-        <p class="text-justify yekan">
+        <p class="text-justify yekan teamwork-text">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
             بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
             با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
@@ -129,7 +129,7 @@
         <i class="fa fa-star fa-2x"></i>
         <i class="fa fa-star fa-2x"></i>
 
-        <p class="text-justify yekan">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+        <p class="text-justify teamwork-text yekan">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
             است. چاپگرها و متون
             بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
             با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
@@ -146,7 +146,7 @@
         <i class="fa fa-star fa-2x"></i>
         <i class="fa fa-star fa-2x"></i>
 
-        <p class="text-justify yekan">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+        <p class="text-justify yekan teamwork-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
             است. چاپگرها و متون
             بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع
             با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
@@ -160,9 +160,16 @@
 </div>
 
 <body>
-
-
 <script src="js/vendor/jquery.min.js"></script>
+
+<script>
+    $('a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 500);
+        return false;
+    });
+</script>
 <script src="js/vendor/what-input.min.js"></script>
 <script src="js/foundation.min.js"></script>
 <script src="js/app.js"></script>
