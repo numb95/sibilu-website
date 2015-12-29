@@ -30,3 +30,10 @@
 @media screen and (min-width: 1200px) {
     .header-bg{height: 700px !important;}
 }
+
+.text-justif{
+    text-align: justify !important;
+}
+.yekan{
+    font-family: 'yekan';
+}
