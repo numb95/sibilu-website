@@ -29,6 +29,7 @@
 }
 @media screen and (min-width: 1200px) {
     .header-bg{height: 700px !important;}
+    .brands{height: 200px;padding-top: 6px;}
 }
 
 .text-justif{
@@ -39,4 +40,33 @@
 }
 .teamwork-text{
     line-height: 2.2em;
+}
+.brands{
+
+    background-color: silver;
+
+
+}
+#googlemaps {
+    height: 40%;
+    width: 100%;
+    position:absolute;
+    /*top: 0;
+    left: 0;*/
+    z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+
+#contactform {
+    position: relative;
+    z-index: 1; /* The z-index should be higher than Google Maps */
+   /* width: 300px;
+    margin: 60px auto 0;
+    padding: 10px;*/
+    /*
+    background: black;
+    */
+    height: auto;
+    opacity: .45; /* Set the opacity for a slightly transparent Google Form */
+    color: white;
+    background-color:rgba(0, 0, 0, 0.53) ;
 }
