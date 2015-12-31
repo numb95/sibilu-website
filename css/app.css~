@@ -21,8 +21,6 @@
     padding-left: 0px;
     background-attachment: fixed !important;
     background: url("../img/teamwork.jpg");
-    background-repeat: round !important;
-
 }
 .header-bg{
     background: url("../img/bg.jpg");
